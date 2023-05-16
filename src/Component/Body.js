@@ -34,7 +34,7 @@ export default function Body() {
          
 
         <div   className="col-md-3 mb-3 mx-auto "key={index} >
-          <Card  id= {index} Name ={poke.name} img={poke.image}  stats={poke.stats} Quantiti={poke.q} /> 
+          <Card  Id= {poke.id} Name ={poke.name} img={poke.image}  stats={poke.stats} Quantiti={poke.q} /> 
           
           </div> 
         ))}   

@@ -3,6 +3,9 @@ import "./style.css";
 import Header from './Component/Header.js'
 import Body from './Component/Body.js'
 import Cart from './Component/Cart.js'
+import Footer from './Component/Footer.js'
+
+
 import {Route ,Routes, Switch,NavLink,Link } from 'react-router-dom';
 
 export default function App() {
@@ -22,6 +25,7 @@ export default function App() {
 
 </Routes>
 
+<Footer/>
      
     </div>
   );
