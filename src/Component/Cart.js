@@ -16,7 +16,8 @@ export default function cart() {
   return (  
 
     <>
-    <div className="container my-3  ">
+
+    <div className="container-fluid my-3  ">
         
     <table className="table  table-striped  text-center">
   <thead>
